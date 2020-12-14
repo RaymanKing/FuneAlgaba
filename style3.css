@@ -1,0 +1,187 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url("images/fondo.jpg");
+    margin: auto;
+}
+
+#tipos{
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#tipos div{
+    box-shadow: black 8px 8px 8px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(38, 33, 97);
+    margin-top: 30px;
+}
+
+.exhumacion{
+    width: 400px;
+    padding: 60px;
+}
+
+.exhumacion h2{
+    margin-bottom: 20px;
+}
+
+.exhumacion p{
+    color: white;
+    font-size: 18px;
+}
+
+#tipos h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: black 2px 2px 2px;
+}
+
+.tlf{
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(38, 33, 97);
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(38, 33, 97);
+    float: right;
+    box-shadow: black 4px 4px 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav li a{
+    color: white;
+}
+
+.nav li a:hover{
+    text-shadow: black 2px 2px 2px;
+}
+
+.show .dropdown-menu{
+    background-color: rgb(38, 33, 97);
+    box-shadow: 3px 3px 3px black;
+}
+
+.show .dropdown-menu a{
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgb(38, 33, 97);
+    text-shadow: black 2px 2px;
+}
+
+.titulo h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(38, 33, 97);
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: black 2px 2px 2px;
+}
+
+@media screen and (min-width:1200px){
+    .logo{
+        margin-left: 50px;
+        margin-top: 2px;
+        height: 150px;
+        width: 300px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 1200px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px){
+    .logo{
+        margin-left: 10px;
+        margin-top: 2px;
+        height: 100px;
+        width: 200px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 800px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width: 800px){
+    .logo{
+        margin-left: 10px;
+        margin-top: 2px;
+        height: 80px;
+        width: 160px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 600px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:650px){
+    .logo{
+        margin-top: 20px;
+        margin-left: 30%;
+        height: 80px;
+        width: 200px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 350px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .logo{
+        margin-top: 20px;
+        margin-left: 30%;
+        height: 80px;
+        width: 200px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 350px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 50px;
+    }
+}

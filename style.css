@@ -1,0 +1,205 @@
+body{
+    background-image: url("images/fondo.jpg");
+    margin: auto;
+}
+
+.ayuda{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.tlf{
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(38, 33, 97);
+    text-align: center;
+}
+
+.carousel-caption h5{
+    text-shadow: black 2px 2px 2px;
+}
+
+
+.carousel-caption p{
+    text-shadow: black 2px 2px 2px;
+}
+
+.introduce{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(38, 33, 97);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav{
+    background-color: rgb(38, 33, 97);
+    float: right;
+    box-shadow: black 4px 4px 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav li a{
+    color: white;
+}
+
+.nav li a:hover{
+    text-shadow: black 2px 2px 2px;
+}
+
+.show .dropdown-menu{
+    background-color: rgb(38, 33, 97);
+    box-shadow: 3px 3px 3px black;
+}
+
+.show .dropdown-menu a{
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgb(38, 33, 97);
+    text-shadow: black 2px 2px;
+}
+
+@media screen and (min-width:1200px){
+    .logo{
+        margin-left: 50px;
+        margin-top: 2px;
+        height: 150px;
+        width: 300px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 1200px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    #carouselExampleCaptions{
+        width: 1000px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: black 10px 10px 10px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px){
+    .logo{
+        margin-left: 10px;
+        margin-top: 2px;
+        height: 100px;
+        width: 200px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 800px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    #carouselExampleCaptions{
+        width: 800px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: black 10px 10px 10px;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width: 800px){
+    .logo{
+        margin-left: 10px;
+        margin-top: 2px;
+        height: 80px;
+        width: 160px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 600px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    #carouselExampleCaptions{
+        width: 500px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: black 10px 10px 10px;
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:650px){
+    .logo{
+        margin-top: 20px;
+        margin-left: 30%;
+        height: 80px;
+        width: 200px;
+    }
+
+    .ayudar{
+        width: 400px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 350px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    #carouselExampleCaptions{
+        width: 500px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: black 10px 10px 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .logo{
+        margin-top: 20px;
+        margin-left: 30%;
+        height: 80px;
+        width: 200px;
+    }
+
+    .ayudar{
+        width:300px;
+    }
+
+    .pie{
+        margin: auto;
+        width: 350px;
+    }
+
+    .footer{
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #carouselExampleCaptions{
+        width: 200px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: black 10px 10px 10px;
+    }
+}

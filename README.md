@@ -1,2 +1,2 @@
-# FuneAlgaba
-Página Web para el tanatorio de La Algaba
+# Funeraria
+Página Web de FuneAlgaba
